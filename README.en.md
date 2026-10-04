@@ -58,7 +58,3 @@ My research focuses on **agent security in security operations (SOC)**, with the
   <img src="https://img.shields.io/badge/Languages-f5b041?style=for-the-badge" alt="Languages">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"> <img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"> <img src="https://img.shields.io/badge/C-161b22?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C">
 </p>
 
-<div align="center">
-<br>
-<sub>Japan Advanced Institute of Science and Technology (JAIST) · Ishikawa, Japan · <i>let the model read, not decide.</i></sub>
-</div>

@@ -58,7 +58,3 @@
   <img src="https://img.shields.io/badge/言語-f5b041?style=for-the-badge" alt="言語">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"> <img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"> <img src="https://img.shields.io/badge/C-161b22?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C">
 </p>
 
-<div align="center">
-<br>
-<sub>北陸先端科学技術大学院大学（JAIST）· 石川県 · <i>let the model read, not decide.</i></sub>
-</div>

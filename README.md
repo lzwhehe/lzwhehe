@@ -58,7 +58,3 @@
   <img src="https://img.shields.io/badge/编程语言-f5b041?style=for-the-badge" alt="编程语言">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"> <img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"> <img src="https://img.shields.io/badge/C-161b22?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C">
 </p>
 
-<div align="center">
-<br>
-<sub>北陆先端科学技术大学院大学（JAIST）· 日本石川 · <i>let the model read, not decide.</i></sub>
-</div>
