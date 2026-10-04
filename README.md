@@ -8,6 +8,7 @@ JAIST 网络安全实验室 · 计算机科学硕士（2027.03 毕业）
 
 [![Email](https://img.shields.io/badge/Email-ryutakubun%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ryutakubun@gmail.com)
 [![arXiv](https://img.shields.io/badge/arXiv-2609.33446-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.33446)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23133690-1682D4?style=flat-square&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23133690)
 ![Languages](https://img.shields.io/badge/中文%20·%20日本語%20N1%20·%20English-555?style=flat-square)
 
 </div>
@@ -24,7 +25,7 @@ JAIST 网络安全实验室 · 计算机科学硕士（2027.03 毕业）
 
 ### 🛡️ [HESP](https://github.com/lzwhehe/HESP)：让 7B 模型胜任告警分诊
 
-*Making Small Local LLMs Usable for Alert Triage — The Model Reads the Logs, a Controller Decides* · 第一作者 · [arXiv:2609.33446](https://arxiv.org/abs/2609.33446)
+*Making Small Local LLMs Usable for Alert Triage — The Model Reads the Logs, a Controller Decides* · 第一作者 · [arXiv:2609.33446](https://arxiv.org/abs/2609.33446) · DOI: [10.5281/zenodo.23133690](https://doi.org/10.5281/zenodo.23133690)
 
 数据不能出域的组织只能用本地小模型分诊告警，而小模型单独做不到。HESP 把分诊拆成两件事：**模型负责读日志，控制器负责做决定**（贝叶斯假设账本 + 按单位成本信息增益选探针 + 证据守卫）。
 
