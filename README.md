@@ -2,17 +2,17 @@
 
 <img src="assets/banner.svg" width="100%" alt="Liu Zhuowen — AI / Agent Security Researcher">
 
-<a href="mailto:ryutakubunwork@gmail.com"><img src="https://img.shields.io/badge/Email-ryutakubunwork%40gmail.com-0b0f17?style=for-the-badge&labelColor=161b22&logo=gmail&logoColor=f5b041" alt="Email"></a> <a href="https://arxiv.org/abs/2609.33446"><img src="https://img.shields.io/badge/arXiv-2609.33446-0b0f17?style=for-the-badge&labelColor=161b22&logo=arxiv&logoColor=f87171" alt="arXiv"></a> <a href="https://doi.org/10.5281/zenodo.23133690"><img src="https://img.shields.io/badge/DOI-zenodo.23133690-0b0f17?style=for-the-badge&labelColor=161b22&logo=zenodo&logoColor=22d3ee" alt="DOI"></a> <img src="https://img.shields.io/badge/中文%20·%20日本語%20N1%20·%20English-0b0f17?style=for-the-badge&labelColor=161b22" alt="Languages">
+<a href="https://github.com/lzwhehe"><img src="https://img.shields.io/badge/中文-22d3ee?style=for-the-badge" alt="中文"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.en.md"><img src="https://img.shields.io/badge/English-161b22?style=for-the-badge" alt="English"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.ja.md"><img src="https://img.shields.io/badge/日本語-161b22?style=for-the-badge" alt="日本語"></a>
+
+<a href="mailto:ryutakubunwork@gmail.com"><img src="https://img.shields.io/badge/Email-ryutakubunwork%40gmail.com-0b0f17?style=for-the-badge&labelColor=161b22&logo=gmail&logoColor=f5b041" alt="Email"></a> <a href="https://arxiv.org/abs/2609.33446"><img src="https://img.shields.io/badge/arXiv-2609.33446-0b0f17?style=for-the-badge&labelColor=161b22&logo=arxiv&logoColor=f87171" alt="arXiv"></a> <a href="https://doi.org/10.5281/zenodo.23133690"><img src="https://img.shields.io/badge/DOI-zenodo.23133690-0b0f17?style=for-the-badge&labelColor=161b22&logo=zenodo&logoColor=22d3ee" alt="DOI"></a>
 
 </div>
 
 <br>
 
-我研究 **LLM 智能体的对抗鲁棒性与评测可靠性**，聚焦安全运营（SOC）场景：间接提示注入与证据伪造、智能体的过早决策与轻信、防御机制设计，以及基准本身是否可信。
+你好，我是刘卓文，目前在**北陆先端科学技术大学院大学（JAIST）先端科学技术专攻 · 网络安全实验室**攻读硕士二年级。
 
-在 SOC 日志调查中我发现：模型变强解决了“不会下结论”，却暴露出更危险的失败——**过早结案，并轻信攻击者能写进日志的字段**，而且这个问题不随规模改善。现在我在设计不依赖攻击数据的训练方法，让小型本地模型学会在下结论前主动用独立来源印证。
-
-本科读信息安全（Web 渗透、攻防竞赛），硕士在 **JAIST 网络安全实验室**。研究习惯：实验先登记再运行，每个数字都能从公开的日志和脚本重新算出来。
+我的研究聚焦**安全运营场景下的 Agent 安全**，致力于让 LLM 智能体安全、可靠地落地于实际的安全运营工作。同时，我也投身于**中国非物质文化遗产保护**，专注于用前沿 AI 技术助力传统文化的数字化保存与传承。
 
 > [!TIP]
 > 正在寻找 **2027 届网络安全 / AI 安全**岗位：安全研究 · 安全运营 · AI 安全工程。
@@ -34,7 +34,7 @@
 <a href="https://github.com/lzwhehe/kushulan-papercut-blora"><img src="assets/card-kushulan.svg" width="100%" alt="Safeguarding Intangible Heritage"></a>
 
 <details>
-<summary><b>每个项目一句话（中文）</b></summary>
+<summary><b>每个项目一句话</b></summary>
 
 - **进行中 · 伪造证据下的过早决策**：测量 0.5B–72B 开源模型（Qwen2.5、Qwen3、Llama-3.1、Meta-SecAlign）约 1 万个回合；能结案的大模型在伪造日志下把 36 个攻击中的 30–36 个判为良性，Qwen2.5-72B 平均只查 1.1 个数据源就采信。正在预注册“印证感知”训练：训练中不使用任何攻击样本。
 - **[HESP](https://github.com/lzwhehe/HESP)**（第一作者）：模型负责读日志、控制器负责决策；日志格式变更后“7B 读、控制器判”48 例全部解决；提出“读取器信任”规则，在测试的全部攻击下漏判为 0。
