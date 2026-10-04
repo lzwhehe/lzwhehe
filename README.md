@@ -40,18 +40,23 @@
 
 </details>
 
-## 🧰 Toolkit
+## 🧰 Skills
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,git,latex,js,c&theme=dark" alt="Python · PyTorch · Git · LaTeX · JavaScript · C">
+  <img src="https://img.shields.io/badge/Web_安全-f87171?style=for-the-badge" alt="Web 安全">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Burp_Suite-161b22?style=for-the-badge&logo=burpsuite&logoColor=FF6633" alt="Burp Suite"> <img src="https://img.shields.io/badge/SQLMap-161b22?style=for-the-badge" alt="SQLMap"> <img src="https://img.shields.io/badge/Nmap-161b22?style=for-the-badge" alt="Nmap"> <img src="https://img.shields.io/badge/Xray-161b22?style=for-the-badge" alt="Xray"> <img src="https://img.shields.io/badge/OWASP_Top_10-161b22?style=for-the-badge&logo=owasp&logoColor=ffffff" alt="OWASP Top 10">
 </p>
 
-| 方向 | 用过的东西 |
-| :-- | :-- |
-| **Agent&nbsp;安全** | 间接提示注入 · 证据伪造 · 自适应攻击 · 读取器信任 / 跨来源印证 · OWASP LLM Top 10 |
-| **评测** | 预注册实验 · 预写式日志与独立验证器 · AgentDojo · τ-bench · BIPIA · SigmaHQ / ATT&CK |
-| **LLM** | vLLM · Ollama · Qwen2.5 / Qwen3 / Llama-3.1 本地部署 · MCP · LoRA 微调（Qwen-Image-Edit、SDXL） |
-| **Web&nbsp;安全** | OWASP Top 10 · Burp Suite · SQLMap · Nmap · Xray |
+<p align="center">
+  <img src="https://img.shields.io/badge/LLM_微调与部署-a78bfa?style=for-the-badge" alt="LLM 微调与部署">&nbsp;&nbsp;<img src="https://img.shields.io/badge/LoRA-161b22?style=for-the-badge" alt="LoRA"> <img src="https://img.shields.io/badge/PyTorch-161b22?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" alt="PyTorch"> <img src="https://img.shields.io/badge/vLLM-161b22?style=for-the-badge" alt="vLLM"> <img src="https://img.shields.io/badge/Ollama-161b22?style=for-the-badge&logo=ollama&logoColor=ffffff" alt="Ollama">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Agent_工具-22d3ee?style=for-the-badge" alt="Agent 工具">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Claude_Code-161b22?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude Code"> <img src="https://img.shields.io/badge/Codex-161b22?style=for-the-badge" alt="Codex"> <img src="https://img.shields.io/badge/WorkBuddy-161b22?style=for-the-badge" alt="WorkBuddy"> <img src="https://img.shields.io/badge/Kimi_Code-161b22?style=for-the-badge&logo=kimi&logoColor=ffffff" alt="Kimi Code">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/编程语言-f5b041?style=for-the-badge" alt="编程语言">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"> <img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"> <img src="https://img.shields.io/badge/C-161b22?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C">
+</p>
 
 <div align="center">
 <br>
