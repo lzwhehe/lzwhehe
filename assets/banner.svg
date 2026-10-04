@@ -10,7 +10,7 @@
   .name{font:700 58px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif;fill:url(#name);letter-spacing:1px}
   .cn{font:600 26px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif;fill:#f5b041;letter-spacing:6px}
   .role{font:500 22px 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,Menlo,monospace;fill:#22d3ee}
-  .q{font:400 19px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif;fill:#8b98a9}
+  .id{font:600 15px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif}
   .tag{font:500 13px 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,Menlo,monospace;fill:#8b98a9;text-anchor:middle}
   .ring{fill:none;stroke:#1e3a4a;stroke-width:1.2}
   .sweep{transform-origin:1000px 160px;animation:spin 4s linear infinite}
@@ -28,8 +28,7 @@
 <text x="72" y="104" class="name">Liu Zhuowen</text>
 <text x="452" y="102" class="cn">刘卓文</text>
 <text x="74" y="148" class="role">&gt; AI / Agent Security Researcher<tspan class="cursor" fill="#22d3ee">▍</tspan></text>
-<text x="74" y="196" class="q">Can an LLM agent stay honest when the logs lie?</text>
-<text x="74" y="222" class="q" style="font-size:16px">当日志会说谎，LLM 智能体还能被信任吗？</text>
+<rect x="72" y="176" width="204" height="34" rx="17" fill="#22d3ee" fill-opacity=".12" stroke="#22d3ee" stroke-opacity=".6"/><circle cx="89" cy="193" r="4" fill="#22d3ee"/><text x="101" y="198.5" class="id" fill="#22d3ee">Agent Security × SOC</text><rect x="288.0" y="176" width="179" height="34" rx="17" fill="#f87171" fill-opacity=".12" stroke="#f87171" stroke-opacity=".6"/><circle cx="305.0" cy="193" r="4" fill="#f87171"/><text x="317.0" y="198.5" class="id" fill="#f87171">Web Pentest Roots</text><rect x="479.1" y="176" width="237" height="34" rx="17" fill="#f5b041" fill-opacity=".12" stroke="#f5b041" stroke-opacity=".6"/><circle cx="496.1" cy="193" r="4" fill="#f5b041"/><text x="508.1" y="198.5" class="id" fill="#f5b041">AI × Intangible Heritage</text>
 <rect x="72" y="244" width="149" height="28" rx="14" fill="none" stroke="#243042"/><text x="147" y="263" class="tag">prompt injection</text><rect x="231.4" y="244" width="149" height="28" rx="14" fill="none" stroke="#243042"/><text x="306" y="263" class="tag">evidence forgery</text><rect x="390.8" y="244" width="99" height="28" rx="14" fill="none" stroke="#243042"/><text x="440" y="263" class="tag">SOC agents</text><rect x="499.8" y="244" width="166" height="28" rx="14" fill="none" stroke="#243042"/><text x="583" y="263" class="tag">benchmark validity</text>
 <circle cx="1000" cy="160" r="178" fill="url(#glow)"/>
 <circle cx="1000" cy="160" r="118" class="ring"/><circle cx="1000" cy="160" r="79" class="ring"/><circle cx="1000" cy="160" r="39" class="ring"/>
