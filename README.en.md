@@ -4,7 +4,7 @@
 
 <a href="https://github.com/lzwhehe"><img src="https://img.shields.io/badge/中文-161b22?style=for-the-badge" alt="中文"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.en.md"><img src="https://img.shields.io/badge/English-22d3ee?style=for-the-badge" alt="English"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.ja.md"><img src="https://img.shields.io/badge/日本語-161b22?style=for-the-badge" alt="日本語"></a>
 
-<a href="mailto:ryutakubunwork@gmail.com"><img src="https://img.shields.io/badge/Email-ryutakubunwork%40gmail.com-0b0f17?style=for-the-badge&labelColor=161b22&logo=gmail&logoColor=f5b041" alt="Email"></a> <a href="https://arxiv.org/abs/2609.33446"><img src="https://img.shields.io/badge/arXiv-2609.33446-0b0f17?style=for-the-badge&labelColor=161b22&logo=arxiv&logoColor=f87171" alt="arXiv"></a> <a href="https://doi.org/10.5281/zenodo.23133690"><img src="https://img.shields.io/badge/DOI-zenodo.23133690-0b0f17?style=for-the-badge&labelColor=161b22&logo=zenodo&logoColor=22d3ee" alt="DOI"></a>
+<a href="mailto:ryutakubunwork@gmail.com"><img src="https://img.shields.io/badge/Email-ryutakubunwork%40gmail.com-0b0f17?style=for-the-badge&labelColor=161b22&logo=gmail&logoColor=f5b041" alt="Email"></a>
 
 </div>
 
