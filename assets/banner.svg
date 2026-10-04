@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Liu Zhuowen — AI / Agent Security">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f17"/><stop offset="1" stop-color="#101b2d"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#18233a" stroke-width="1"/></pattern>
+  <radialGradient id="glow" cx="1000" cy="160" r="178" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#22d3ee" stop-opacity=".16"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".55"/></linearGradient>
+  <linearGradient id="name" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#9fe8f3"/></linearGradient>
+</defs>
+<style>
+  .name{font:700 58px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif;fill:url(#name);letter-spacing:1px}
+  .cn{font:600 26px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif;fill:#f5b041;letter-spacing:6px}
+  .role{font:500 22px 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,Menlo,monospace;fill:#22d3ee}
+  .q{font:400 19px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif;fill:#8b98a9}
+  .tag{font:500 13px 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,Menlo,monospace;fill:#8b98a9;text-anchor:middle}
+  .ring{fill:none;stroke:#1e3a4a;stroke-width:1.2}
+  .sweep{transform-origin:1000px 160px;animation:spin 4s linear infinite}
+  .blip{opacity:0;animation:blip 4s ease-out infinite}
+  .ping{opacity:0;transform-box:fill-box;transform-origin:center;animation:ping 4s ease-out infinite}
+  .cursor{animation:blink 1.1s steps(1) infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes blip{0%{opacity:0}6%{opacity:1}60%{opacity:.15}100%{opacity:0}}
+  @keyframes ping{0%{opacity:.9;transform:scale(1)}40%{opacity:0;transform:scale(4)}100%{opacity:0}}
+  @keyframes blink{50%{opacity:0}}
+</style>
+<rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="320" rx="18" fill="url(#grid)" opacity=".7"/>
+<rect x=".5" y=".5" width="1199" height="319" rx="18" fill="none" stroke="#243042"/>
+<text x="72" y="104" class="name">Liu Zhuowen</text>
+<text x="452" y="102" class="cn">刘卓文</text>
+<text x="74" y="148" class="role">&gt; AI / Agent Security Researcher<tspan class="cursor" fill="#22d3ee">▍</tspan></text>
+<text x="74" y="196" class="q">Can an LLM agent stay honest when the logs lie?</text>
+<text x="74" y="222" class="q" style="font-size:16px">当日志会说谎，LLM 智能体还能被信任吗？</text>
+<rect x="72" y="244" width="149" height="28" rx="14" fill="none" stroke="#243042"/><text x="147" y="263" class="tag">prompt injection</text><rect x="231.4" y="244" width="149" height="28" rx="14" fill="none" stroke="#243042"/><text x="306" y="263" class="tag">evidence forgery</text><rect x="390.8" y="244" width="99" height="28" rx="14" fill="none" stroke="#243042"/><text x="440" y="263" class="tag">SOC agents</text><rect x="499.8" y="244" width="166" height="28" rx="14" fill="none" stroke="#243042"/><text x="583" y="263" class="tag">benchmark validity</text>
+<circle cx="1000" cy="160" r="178" fill="url(#glow)"/>
+<circle cx="1000" cy="160" r="118" class="ring"/><circle cx="1000" cy="160" r="79" class="ring"/><circle cx="1000" cy="160" r="39" class="ring"/>
+<path d="M882 160H1118M1000 42V278" stroke="#1e3a4a"/>
+<path class="sweep" d="M1000 160 L1118 160 A118 118 0 0 0 1102.2 101.0 Z" fill="url(#sweep)"/>
+<circle cx="952" cy="98" r="5" fill="#f87171" class="blip" style="animation-delay:0.0s"/><circle cx="952" cy="98" r="5" fill="none" stroke="#f87171" class="ping" style="animation-delay:0.0s"/>
+<circle cx="1066" cy="140" r="5" fill="#f5b041" class="blip" style="animation-delay:1.1s"/><circle cx="1066" cy="140" r="5" fill="none" stroke="#f5b041" class="ping" style="animation-delay:1.1s"/>
+<circle cx="980" cy="230" r="5" fill="#22d3ee" class="blip" style="animation-delay:2.3s"/><circle cx="980" cy="230" r="5" fill="none" stroke="#22d3ee" class="ping" style="animation-delay:2.3s"/>
+<circle cx="1040" cy="218" r="5" fill="#34d399" class="blip" style="animation-delay:3.2s"/><circle cx="1040" cy="218" r="5" fill="none" stroke="#34d399" class="ping" style="animation-delay:3.2s"/>
+<circle cx="918" cy="172" r="5" fill="#f5b041" class="blip" style="animation-delay:1.7s"/><circle cx="918" cy="172" r="5" fill="none" stroke="#f5b041" class="ping" style="animation-delay:1.7s"/>
+<circle cx="1000" cy="160" r="3" fill="#22d3ee"/>
+<text x="1000" y="308" class="tag" style="fill:#4b6a7f">ALERT TRIAGE · LIVE</text>
+</svg>

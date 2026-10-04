@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 210" width="1000" height="210" role="img" aria-label="Premature Verdicts under Forged Evidence">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#f5b041" stop-opacity=".14"/><stop offset=".55" stop-color="#f5b041" stop-opacity="0"/></linearGradient></defs>
+<style>
+  .k{font:600 13px 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,Menlo,monospace;letter-spacing:2px}
+  .t{font:700 30px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif;fill:#e6edf3}
+  .s{font:400 17px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif;fill:#8b98a9}
+  .cn{font:400 15px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif;fill:#6b7a8f}
+  .big{font:700 40px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif}
+  .ml{font:400 13px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC',Helvetica,Arial,sans-serif;fill:#8b98a9}
+  .chip{font:500 12px 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,Menlo,monospace;text-anchor:middle}
+  .st{font:500 12px 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,Menlo,monospace;fill:#8b98a9;text-anchor:end}
+  .dot{animation:p 1.6s ease-in-out infinite} @keyframes p{50%{opacity:.25}}
+</style>
+<rect width="1000" height="210" rx="16" fill="#111827"/>
+<rect width="1000" height="210" rx="16" fill="url(#g)"/>
+<rect x=".5" y=".5" width="999" height="209" rx="16" fill="none" stroke="#243042"/>
+<rect x="0" y="22" width="5" height="166" rx="2.5" fill="#f5b041"/>
+<text x="40" y="44" class="k" fill="#f5b041">NOW · 进行中</text>
+<circle cx="964" cy="39" r="5" fill="#f5b041" class="dot"/><text x="950" y="44" class="st">pre-registering</text>
+<text x="40" y="84" class="t">Premature Verdicts under Forged Evidence</text>
+<text x="40" y="114" class="s">Larger models stop probing — and believe attacker-written log fields.</text>
+<text x="40" y="140" class="cn">智能体在伪造证据下的过早决策：规模趋势与印证训练</text>
+<line x1="672" y1="70" x2="672" y2="150" stroke="#243042"/>
+<text x="700" y="112" class="big" fill="#f5b041">30–36</text><text x="700" y="138" class="ml">of 36 attacks judged</text><text x="700" y="156" class="ml">benign (forged logs)</text><text x="850" y="112" class="big" fill="#f5b041">1.1</text><text x="850" y="138" class="ml">sources checked by</text><text x="850" y="156" class="ml">Qwen2.5-72B</text>
+<rect x="40" y="160" width="75" height="24" rx="12" fill="#f5b041" fill-opacity=".1" stroke="#f5b041" stroke-opacity=".45"/><text x="77" y="176" class="chip" fill="#f5b041">0.5B–72B</text><rect x="122.8" y="160" width="113" height="24" rx="12" fill="#f5b041" fill-opacity=".1" stroke="#f5b041" stroke-opacity=".45"/><text x="179" y="176" class="chip" fill="#f5b041">~10k episodes</text><rect x="243.6" y="160" width="181" height="24" rx="12" fill="#f5b041" fill-opacity=".1" stroke="#f5b041" stroke-opacity=".45"/><text x="334" y="176" class="chip" fill="#f5b041">corroboration training</text>
+</svg>

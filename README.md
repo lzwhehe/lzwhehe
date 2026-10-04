@@ -1,69 +1,62 @@
 <div align="center">
 
-# 刘卓文 · Liu Zhuowen
+<img src="assets/banner.svg" width="100%" alt="Liu Zhuowen — AI / Agent Security Researcher">
 
-**AI / Agent 安全 · 网络安全 · LLM 安全评测**
-
-JAIST 网络安全实验室 · 计算机科学硕士（2027.03 毕业）
-
-[![Email](https://img.shields.io/badge/Email-ryutakubun%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ryutakubun@gmail.com)
-[![arXiv](https://img.shields.io/badge/arXiv-2609.33446-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.33446)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23133690-1682D4?style=flat-square&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23133690)
-![Languages](https://img.shields.io/badge/中文%20·%20日本語%20N1%20·%20English-555?style=flat-square)
+<a href="mailto:ryutakubunwork@gmail.com"><img src="https://img.shields.io/badge/Email-ryutakubunwork%40gmail.com-0b0f17?style=for-the-badge&labelColor=161b22&logo=gmail&logoColor=f5b041" alt="Email"></a> <a href="https://arxiv.org/abs/2609.33446"><img src="https://img.shields.io/badge/arXiv-2609.33446-0b0f17?style=for-the-badge&labelColor=161b22&logo=arxiv&logoColor=f87171" alt="arXiv"></a> <a href="https://doi.org/10.5281/zenodo.23133690"><img src="https://img.shields.io/badge/DOI-zenodo.23133690-0b0f17?style=for-the-badge&labelColor=161b22&logo=zenodo&logoColor=22d3ee" alt="DOI"></a> <img src="https://img.shields.io/badge/中文%20·%20日本語%20N1%20·%20English-0b0f17?style=for-the-badge&labelColor=161b22" alt="Languages">
 
 </div>
 
-我研究 **LLM Agent 在安全场景里能不能被信任**：小模型能不能可靠地做安全告警分诊，提示词注入从哪里进来、怎么挡住，以及检测器的跑分能不能代表它在真实 Agent 里的表现。本科读信息安全，有 Web 渗透和攻防竞赛的基础；硕士在北陆先端科学技术大学院大学（JAIST）做 Agent 安全研究。
+<br>
 
-我的研究习惯是：**实验先登记再运行，每个数字都能从公开的日志和脚本重新算出来。**
+我研究 **LLM 智能体的对抗鲁棒性与评测可靠性**，聚焦安全运营（SOC）场景：间接提示注入与证据伪造、智能体的过早决策与轻信、防御机制设计，以及基准本身是否可信。
 
-> 🔎 正在寻找 **2027 届网络安全 / AI 安全**相关岗位（安全研究、安全运营、AI 安全工程）。
+在 SOC 日志调查中我发现：模型变强解决了“不会下结论”，却暴露出更危险的失败——**过早结案，并轻信攻击者能写进日志的字段**，而且这个问题不随规模改善。现在我在设计不依赖攻击数据的训练方法，让小型本地模型学会在下结论前主动用独立来源印证。
 
----
+本科读信息安全（Web 渗透、攻防竞赛），硕士在 **JAIST 网络安全实验室**。研究习惯：实验先登记再运行，每个数字都能从公开的日志和脚本重新算出来。
 
-## 研究项目
+> [!TIP]
+> 正在寻找 **2027 届网络安全 / AI 安全**岗位：安全研究 · 安全运营 · AI 安全工程。
 
-### 🛡️ [HESP](https://github.com/lzwhehe/HESP)：让 7B 模型胜任告警分诊
-
-*Making Small Local LLMs Usable for Alert Triage — The Model Reads the Logs, a Controller Decides* · 第一作者 · [arXiv:2609.33446](https://arxiv.org/abs/2609.33446) · DOI: [10.5281/zenodo.23133690](https://doi.org/10.5281/zenodo.23133690)
-
-数据不能出域的组织只能用本地小模型分诊告警，而小模型单独做不到。HESP 把分诊拆成两件事：**模型负责读日志，控制器负责做决定**（贝叶斯假设账本 + 按单位成本信息增益选探针 + 证据守卫）。
-
-- **两半都不能单独工作**：日志格式一变，规则解析器 364 条观测全部读错；Qwen2.5-7B 自己决策时，面对原始日志 48 例一个都解决不了；“7B 模型读、控制器判”则 48 例全部解决。
-- **读取本身就是攻击面**：攻击者在每条日志里写进同一个“良性”故事，7B 模型就把 36 个攻击全部判为良性。HESP 不让模型读出的证据支持良性结论，挡住了所有测试过的攻击。
-- **可复现**：5 个开源模型（7B–72B）、三个模拟分诊环境、全部实验预注册，23,582 个 LLM 回合逐一审计；代码、预测表和回合日志全部公开。
-
-### 🧪 [benign-instruction-bench](https://github.com/lzwhehe/benign-instruction-bench)：*Passing the Test You Trained On*
-
-重新评估**提示词注入检测器**：在 Agent 真正读取的工具输出上，检测器的跑分还靠得住吗？
-
-- 评测 15 个检测器（含 Meta Prompt Guard 2）和 2 个任务感知的 LLM 裁判，覆盖 AgentDojo、τ-bench 和 BIPIA。
-- **排名在基准之间几乎不迁移**（Kendall τ 仅 0.01–0.31）：BIPIA 第一名在 AgentDojo 上排第 13；良性工具输出上的误报率从 0% 到 90% 以上不等。
-- 结论：基准分数主要反映的是**基准与检测器训练数据有多接近**，而不是检测能力本身。（论文草稿）
-
-### 🎨 [库淑兰彩贴剪纸设计生成](https://github.com/lzwhehe/kushulan-papercut-blora)：非遗 × 生成模型
-
-*Safeguarding intangible heritage in folk papercut* · 共同第一作者 · 已投稿 *npj Heritage Science*（审稿中）
-
-国家级非遗“旬邑彩贴剪纸”里，每条颜色边界都是剪刀走过的线。据此从作品中自动恢复纸色谱和剪切线，用“剪切线 → 作品”数据微调 Qwen-Image-Edit，让任意线稿都能生成库淑兰风格的设计。
-
-- 34 张测试线稿（含 12 个她从未剪过的新题材）：线条召回 **0.97**、CLIP 风格 **0.848**，均优于 B-LoRA、InstantStyle 等四个主流框架。
-- 剪切线训练让每幅设计的用色数从 9.8 降到 7.9，更接近原作的 6.1。
-
----
-
-## 技术栈
-
-**安全**：Web 渗透（OWASP Top 10、Burp Suite、SQLMap、Nmap）· 告警研判 · Sigma / ATT&CK · OWASP LLM Top 10 · 提示词注入攻防
-
-**LLM / Agent**：vLLM · Ollama · Qwen2.5 / Llama-3.1 本地部署 · MCP · Agent 评测设计
-
-**机器学习**：PyTorch · LoRA 微调（Qwen-Image-Edit、SDXL）· 统计检验与预注册评测
-
-**语言**：Python · JavaScript · C · LaTeX
-
----
+<br>
 
 <div align="center">
-<sub>北陆先端科学技术大学院大学（JAIST）· 日本石川</sub>
+<img src="assets/terminal.svg" width="100%" alt="HESP triage demo: the model reads the logs, a controller decides">
+</div>
+
+## 🔬 Research
+
+<img src="assets/card-now.svg" width="100%" alt="Now: premature verdicts under forged evidence">
+
+<a href="https://github.com/lzwhehe/HESP"><img src="assets/card-hesp.svg" width="100%" alt="HESP"></a>
+
+<a href="https://github.com/lzwhehe/benign-instruction-bench"><img src="assets/card-bench.svg" width="100%" alt="Passing the Test You Trained On"></a>
+
+<a href="https://github.com/lzwhehe/kushulan-papercut-blora"><img src="assets/card-kushulan.svg" width="100%" alt="Safeguarding Intangible Heritage"></a>
+
+<details>
+<summary><b>每个项目一句话（中文）</b></summary>
+
+- **进行中 · 伪造证据下的过早决策**：测量 0.5B–72B 开源模型（Qwen2.5、Qwen3、Llama-3.1、Meta-SecAlign）约 1 万个回合；能结案的大模型在伪造日志下把 36 个攻击中的 30–36 个判为良性，Qwen2.5-72B 平均只查 1.1 个数据源就采信。正在预注册“印证感知”训练：训练中不使用任何攻击样本。
+- **[HESP](https://github.com/lzwhehe/HESP)**（第一作者）：模型负责读日志、控制器负责决策；日志格式变更后“7B 读、控制器判”48 例全部解决；提出“读取器信任”规则，在测试的全部攻击下漏判为 0。
+- **[Passing the Test You Trained On](https://github.com/lzwhehe/benign-instruction-bench)**（论文草稿）：15 个提示词注入检测器的排名在基准之间几乎不迁移（Kendall τ 0.01–0.31），跑分主要反映基准与训练数据有多接近。
+- **[库淑兰彩贴剪纸生成](https://github.com/lzwhehe/kushulan-papercut-blora)**（共同一作，npj Heritage Science 审稿中）：从作品自动恢复纸色谱与剪切线，微调 Qwen-Image-Edit，线条召回 0.97。
+
+</details>
+
+## 🧰 Toolkit
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,git,latex,js,c&theme=dark" alt="Python · PyTorch · Git · LaTeX · JavaScript · C">
+</p>
+
+| 方向 | 用过的东西 |
+| :-- | :-- |
+| **Agent&nbsp;安全** | 间接提示注入 · 证据伪造 · 自适应攻击 · 读取器信任 / 跨来源印证 · OWASP LLM Top 10 |
+| **评测** | 预注册实验 · 预写式日志与独立验证器 · AgentDojo · τ-bench · BIPIA · SigmaHQ / ATT&CK |
+| **LLM** | vLLM · Ollama · Qwen2.5 / Qwen3 / Llama-3.1 本地部署 · MCP · LoRA 微调（Qwen-Image-Edit、SDXL） |
+| **Web&nbsp;安全** | OWASP Top 10 · Burp Suite · SQLMap · Nmap · Xray |
+
+<div align="center">
+<br>
+<sub>北陆先端科学技术大学院大学（JAIST）· 日本石川 · <i>let the model read, not decide.</i></sub>
 </div>
