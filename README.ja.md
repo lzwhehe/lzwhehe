@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Liu Zhuowen — AI / Agent Security Researcher">
+<img src="assets/banner.svg?v=2" width="100%" alt="Liu Zhuowen — AI / Agent Security Researcher">
 
 <a href="https://github.com/lzwhehe"><img src="https://img.shields.io/badge/中文-161b22?style=for-the-badge" alt="中文"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.en.md"><img src="https://img.shields.io/badge/English-161b22?style=for-the-badge" alt="English"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.ja.md"><img src="https://img.shields.io/badge/日本語-22d3ee?style=for-the-badge" alt="日本語"></a>
 
