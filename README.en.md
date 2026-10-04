@@ -14,14 +14,11 @@ Hi, I'm Liu Zhuowen, a second-year M.S. student in the **Cybersecurity Lab, Grad
 
 My research focuses on **agent security in security operations (SOC)**, with the goal of putting LLM agents to work in real-world security operations safely and reliably. Alongside this, I work on **safeguarding China’s intangible cultural heritage**, using today’s most capable AI to help traditional culture be preserved and passed on digitally.
 
-> [!TIP]
-> Looking for **security / AI security roles (class of 2027)**: security research · security operations · AI security engineering.
+## 🎯 Open to
 
-<br>
+**Class of 2027** (M.S., March 2027), looking for security / AI security roles:
 
-<div align="center">
-<img src="assets/terminal.svg" width="100%" alt="HESP triage demo: the model reads the logs, a controller decides">
-</div>
+<img src="assets/jobs-en.svg" width="100%" alt="🎯 Open to">
 
 ## 🔬 Research
 

@@ -14,14 +14,11 @@
 
 我的研究聚焦**安全运营场景下的 Agent 安全**，致力于让 LLM 智能体安全、可靠地落地于实际的安全运营工作。同时，我也投身于**中国非物质文化遗产保护**，专注于用前沿 AI 技术助力传统文化的数字化保存与传承。
 
-> [!TIP]
-> 正在寻找 **2027 届网络安全 / AI 安全**岗位：安全研究 · 安全运营 · AI 安全工程。
+## 🎯 求职方向
 
-<br>
+**2027 届**（2027 年 3 月硕士毕业），寻找网络安全 / AI 安全相关岗位：
 
-<div align="center">
-<img src="assets/terminal.svg" width="100%" alt="HESP triage demo: the model reads the logs, a controller decides">
-</div>
+<img src="assets/jobs-zh.svg" width="100%" alt="🎯 求职方向">
 
 ## 🔬 Research
 
