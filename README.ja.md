@@ -19,7 +19,7 @@
 
 <img src="assets/card-now.svg" width="100%" alt="Now: premature verdicts under forged evidence">
 
-<a href="https://github.com/lzwhehe/HESP"><img src="assets/card-hesp.svg" width="100%" alt="HESP"></a>
+<a href="https://github.com/lzwhehe/HESP"><img src="assets/card-hesp.svg?v=2" width="100%" alt="HESP"></a>
 
 <a href="https://github.com/lzwhehe/benign-instruction-bench"><img src="assets/card-bench.svg" width="100%" alt="Passing the Test You Trained On"></a>
 
@@ -29,7 +29,7 @@
 <summary><b>各プロジェクトの概要</b></summary>
 
 - **進行中・偽造証拠下での早すぎる判断**：0.5B〜72B のオープンモデル（Qwen2.5、Qwen3、Llama-3.1、Meta-SecAlign）で約 1 万エピソードを測定。結論を出せる大型モデルは、偽造ログのもとで 36 件の攻撃のうち 30〜36 件を良性と判定し、Qwen2.5-72B は平均 1.1 個の情報源しか確認せずに受け入れます。攻撃サンプルを一切使わない「裏付け重視」学習を事前登録中です。
-- **[HESP](https://github.com/lzwhehe/HESP)**（筆頭著者）：モデルはログを読むだけ、判断はコントローラが行います。ログ形式の変更後も「7B が読み、コントローラが判断」で 48 件すべてを解決。「リーダー信頼」ルールにより、検証したすべての攻撃で見逃しを 0 にしました。
+- **[HESP](https://github.com/lzwhehe/HESP)**（筆頭著者、arXiv:2609.33446）：「何を調べるか」と「いつ止めるか」をコントローラが担い、モデルは提案のみを行います。カウントした尤度表で Qwen2.5-7B の検証済み完了率を 0.125 から 1.000 に、コントローラ側の停止で Llama-3.1-8B を 0 から 0.917 に改善しました（事前登録研究 4 件、監査済み 7,272 エピソード）。
 - **[Passing the Test You Trained On](https://github.com/lzwhehe/benign-instruction-bench)**（論文草稿）：15 種のプロンプトインジェクション検知器の順位はベンチマーク間でほとんど一致せず（Kendall τ 0.01〜0.31）、スコアは主にベンチマークと学習データの近さを反映していました。
 - **[庫淑蘭の彩貼り切り紙の生成](https://github.com/lzwhehe/kushulan-papercut-blora)**（共同筆頭著者、*npj Heritage Science* 査読中）：作品から色紙パレットと切り線を自動復元し、Qwen-Image-Edit をファインチューニング。線再現率 0.97。
 

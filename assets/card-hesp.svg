@@ -18,9 +18,9 @@
 <text x="40" y="44" class="k" fill="#22d3ee">PAPER · FIRST AUTHOR</text>
 <circle cx="964" cy="39" r="5" fill="#22d3ee" class="dot"/><text x="950" y="44" class="st">preprint</text>
 <text x="40" y="84" class="t">HESP</text>
-<text x="40" y="114" class="s">Let small local LLMs read the logs — and let a controller decide.</text>
-<text x="40" y="140" class="cn">本地小模型分诊智能体的失败机制与读取层攻击面</text>
+<text x="40" y="114" class="s">Separate what to probe from when to stop in local LLM triage agents.</text>
+<text x="40" y="140" class="cn">本地 LLM 告警分诊智能体：分离“查什么”与“何时停”</text>
 <line x1="672" y1="70" x2="672" y2="150" stroke="#243042"/>
-<text x="700" y="112" class="big" fill="#22d3ee">48/48</text><text x="700" y="138" class="ml">resolved after a</text><text x="700" y="156" class="ml">log-format change</text><text x="850" y="112" class="big" fill="#22d3ee">0</text><text x="850" y="138" class="ml">attacks closed as</text><text x="850" y="156" class="ml">benign (reader trust)</text>
-<rect x="40" y="160" width="136" height="24" rx="12" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".45"/><text x="108" y="176" class="chip" fill="#22d3ee">arXiv 2609.33446</text><rect x="183.6" y="160" width="158" height="24" rx="12" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".45"/><text x="263" y="176" class="chip" fill="#22d3ee">DOI zenodo.23133690</text><rect x="350.0" y="160" width="158" height="24" rx="12" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".45"/><text x="429" y="176" class="chip" fill="#22d3ee">23,582 audited runs</text>
+<text x="700" y="112" class="big" fill="#22d3ee">1.000</text><text x="700" y="138" class="ml">Qwen2.5-7B verified</text><text x="700" y="156" class="ml">completion (from 0.125)</text><text x="850" y="112" class="big" fill="#22d3ee">0.917</text><text x="850" y="138" class="ml">Llama-3.1-8B with a</text><text x="850" y="156" class="ml">controller stop (from 0)</text>
+<rect x="40" y="160" width="136" height="24" rx="12" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".45"/><text x="108" y="176" class="chip" fill="#22d3ee">arXiv 2609.33446</text><rect x="183.6" y="160" width="158" height="24" rx="12" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".45"/><text x="263" y="176" class="chip" fill="#22d3ee">DOI zenodo.23133690</text><rect x="350.0" y="160" width="181" height="24" rx="12" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".45"/><text x="441" y="176" class="chip" fill="#22d3ee">7,272 audited episodes</text>
 </svg>

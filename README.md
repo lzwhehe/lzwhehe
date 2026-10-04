@@ -19,7 +19,7 @@
 
 <img src="assets/card-now.svg" width="100%" alt="Now: premature verdicts under forged evidence">
 
-<a href="https://github.com/lzwhehe/HESP"><img src="assets/card-hesp.svg" width="100%" alt="HESP"></a>
+<a href="https://github.com/lzwhehe/HESP"><img src="assets/card-hesp.svg?v=2" width="100%" alt="HESP"></a>
 
 <a href="https://github.com/lzwhehe/benign-instruction-bench"><img src="assets/card-bench.svg" width="100%" alt="Passing the Test You Trained On"></a>
 
@@ -29,7 +29,7 @@
 <summary><b>每个项目一句话</b></summary>
 
 - **进行中 · 伪造证据下的过早决策**：测量 0.5B–72B 开源模型（Qwen2.5、Qwen3、Llama-3.1、Meta-SecAlign）约 1 万个回合；能结案的大模型在伪造日志下把 36 个攻击中的 30–36 个判为良性，Qwen2.5-72B 平均只查 1.1 个数据源就采信。正在预注册“印证感知”训练：训练中不使用任何攻击样本。
-- **[HESP](https://github.com/lzwhehe/HESP)**（第一作者）：模型负责读日志、控制器负责决策；日志格式变更后“7B 读、控制器判”48 例全部解决；提出“读取器信任”规则，在测试的全部攻击下漏判为 0。
+- **[HESP](https://github.com/lzwhehe/HESP)**（第一作者，arXiv:2609.33446）：控制器接管“查什么”与“何时停”，模型只负责提议；计数似然表使 Qwen2.5-7B 完成率 0.125 → 1.000，控制器结案使 Llama-3.1-8B 0 → 0.917（4 项预注册研究、7,272 个审计回合）。
 - **[Passing the Test You Trained On](https://github.com/lzwhehe/benign-instruction-bench)**（论文草稿）：15 个提示词注入检测器的排名在基准之间几乎不迁移（Kendall τ 0.01–0.31），跑分主要反映基准与训练数据有多接近。
 - **[库淑兰彩贴剪纸生成](https://github.com/lzwhehe/kushulan-papercut-blora)**（共同一作，npj Heritage Science 审稿中）：从作品自动恢复纸色谱与剪切线，微调 Qwen-Image-Edit，线条召回 0.97。
 
