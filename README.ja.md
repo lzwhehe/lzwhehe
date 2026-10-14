@@ -17,7 +17,7 @@
 
 ## 🔬 Research
 
-<img src="assets/card-now.svg" width="100%" alt="Now: premature verdicts under forged evidence">
+<img src="assets/card-now.svg" width="100%" alt="Forged logs vs. LLM triage agents">
 
 <a href="https://github.com/lzwhehe/HESP"><img src="assets/card-hesp.svg?v=2" width="100%" alt="HESP"></a>
 
@@ -28,9 +28,9 @@
 <details>
 <summary><b>各プロジェクトの概要</b></summary>
 
-- **進行中・偽造証拠下での早すぎる判断**：0.5B〜72B のオープンモデル（Qwen2.5、Qwen3、Llama-3.1、Meta-SecAlign）で約 1 万エピソードを測定。結論を出せる大型モデルは、偽造ログのもとで 36 件の攻撃のうち 30〜36 件を良性と判定し、Qwen2.5-72B は平均 1.1 個の情報源しか確認せずに受け入れます。攻撃サンプルを一切使わない「裏付け重視」学習を事前登録中です。
+- **プレプリント・小型 LLM 分析エージェントに偽造ログを疑わせる学習は可能か**（筆頭著者、DOI 10.5281/zenodo.23311714）：22 のモデル構成（0.5B〜72B）で 1.1 万エピソードの偽造ログ・レッドチーム評価を実施。結論を出せる 4B〜72B のモデルはいずれも 36 件中 30〜36 件の攻撃を見逃し、その多くは矛盾する本物の記録をすでに確認していました。LoRA SFT + GRPO による微調整で、ホールドアウトの見逃しを 58/144 から 7/144 に削減。追加実験中です。
 - **[HESP](https://github.com/lzwhehe/HESP)**（筆頭著者、arXiv:2609.33446）：「何を調べるか」と「いつ止めるか」をコントローラが担い、モデルは提案のみを行います。カウントした尤度表で Qwen2.5-7B の検証済み完了率を 0.125 から 1.000 に、コントローラ側の停止で Llama-3.1-8B を 0 から 0.917 に改善しました（事前登録研究 4 件、監査済み 7,272 エピソード）。
-- **[Passing the Test You Trained On](https://github.com/lzwhehe/benign-instruction-bench)**（論文草稿）：15 種のプロンプトインジェクション検知器の順位はベンチマーク間でほとんど一致せず（Kendall τ 0.01〜0.31）、スコアは主にベンチマークと学習データの近さを反映していました。
+- **[Passing the Test You Trained On](https://github.com/lzwhehe/benign-instruction-bench)**（単著、arXiv:2610.03448）：AgentDojo / τ-bench の実際のツール出力を再生し、15 種のプロンプトインジェクション検知器と 2 種の LLM 判定器を再評価。BIPIA 首位の検知器は誤検知率 1% で AgentDojo の注入を約 2% しか検出できず、その学習データに BIPIA の入力 1,116 件が含まれていることも判明しました。
 - **[庫淑蘭の彩貼り切り紙の生成](https://github.com/lzwhehe/kushulan-papercut-blora)**（共同筆頭著者、*npj Heritage Science* 査読中）：作品から色紙パレットと切り線を自動復元し、Qwen-Image-Edit をファインチューニング。線再現率 0.97。
 
 </details>

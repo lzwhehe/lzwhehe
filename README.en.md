@@ -17,7 +17,7 @@ My research focuses on **agent security in security operations (SOC)**, with the
 
 ## 🔬 Research
 
-<img src="assets/card-now.svg" width="100%" alt="Now: premature verdicts under forged evidence">
+<img src="assets/card-now.svg" width="100%" alt="Forged logs vs. LLM triage agents">
 
 <a href="https://github.com/lzwhehe/HESP"><img src="assets/card-hesp.svg?v=2" width="100%" alt="HESP"></a>
 
@@ -28,9 +28,9 @@ My research focuses on **agent security in security operations (SOC)**, with the
 <details>
 <summary><b>One line per project</b></summary>
 
-- **In progress · Premature verdicts under forged evidence**: ~10k episodes across open models from 0.5B to 72B (Qwen2.5, Qwen3, Llama-3.1, Meta-SecAlign). Models large enough to conclude judge 30–36 of 36 attacks benign under forged logs; Qwen2.5-72B accepts a story after checking 1.1 sources on average. Now pre-registering corroboration-aware training that uses no attack samples.
+- **Preprint · Can training teach small LLM triage agents to distrust forged logs?** (first author, DOI 10.5281/zenodo.23311714): an 11k-episode forged-log red-team evaluation over 22 model configurations (0.5B–72B). Every concluding model from 4B to 72B passes 30–36 of 36 attacks, usually after it has already seen the contradicting genuine records. Alignment fine-tuning with LoRA SFT + GRPO cuts held-out misses from 58/144 to 7/144; follow-up experiments in progress.
 - **[HESP](https://github.com/lzwhehe/HESP)** (first author, arXiv:2609.33446): a controller owns what to probe and when to stop while the model only proposes; counted likelihood tables lift Qwen2.5-7B from 0.125 to 1.000 verified completion, and a controller-side stop lifts Llama-3.1-8B from 0 to 0.917 (4 pre-registered studies, 7,272 audited episodes).
-- **[Passing the Test You Trained On](https://github.com/lzwhehe/benign-instruction-bench)** (paper draft): rankings of 15 prompt-injection detectors barely transfer across benchmarks (Kendall τ 0.01–0.31); scores mostly reflect how close a benchmark is to a detector's training data.
+- **[Passing the Test You Trained On](https://github.com/lzwhehe/benign-instruction-bench)** (sole author, arXiv:2610.03448): replaying real AgentDojo / τ-bench tool outputs to re-evaluate 15 prompt-injection detectors and 2 LLM judges. BIPIA's top detector catches only ~2% of AgentDojo injections at 1% FPR, and its training set turns out to contain 1,116 BIPIA inputs.
 - **[Ku Shulan paste-up papercut generation](https://github.com/lzwhehe/kushulan-papercut-blora)** (co-first author, under review at *npj Heritage Science*): recover the paper palette and cut lines from her works, then fine-tune Qwen-Image-Edit; line recall 0.97.
 
 </details>

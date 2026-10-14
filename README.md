@@ -17,7 +17,7 @@
 
 ## 🔬 Research
 
-<img src="assets/card-now.svg" width="100%" alt="Now: premature verdicts under forged evidence">
+<img src="assets/card-now.svg" width="100%" alt="Forged logs vs. LLM triage agents">
 
 <a href="https://github.com/lzwhehe/HESP"><img src="assets/card-hesp.svg?v=2" width="100%" alt="HESP"></a>
 
@@ -28,9 +28,9 @@
 <details>
 <summary><b>每个项目一句话</b></summary>
 
-- **进行中 · 伪造证据下的过早决策**：测量 0.5B–72B 开源模型（Qwen2.5、Qwen3、Llama-3.1、Meta-SecAlign）约 1 万个回合；能结案的大模型在伪造日志下把 36 个攻击中的 30–36 个判为良性，Qwen2.5-72B 平均只查 1.1 个数据源就采信。正在预注册“印证感知”训练：训练中不使用任何攻击样本。
+- **预印本 · 训练能否让小模型研判 Agent 识破伪造日志**（第一作者，DOI 10.5281/zenodo.23311714）：对 22 个模型配置（0.5B–72B）做 1.1 万回合伪造日志红队评测，4B–72B 中能结案的模型对 36 个攻击放行 30–36 个，而它们多半已经查到了与之矛盾的真实记录。LoRA SFT + GRPO 微调对齐后，留出告警漏报由 58/144 降到 7/144；正在补充实验。
 - **[HESP](https://github.com/lzwhehe/HESP)**（第一作者，arXiv:2609.33446）：控制器接管“查什么”与“何时停”，模型只负责提议；计数似然表使 Qwen2.5-7B 完成率 0.125 → 1.000，控制器结案使 Llama-3.1-8B 0 → 0.917（4 项预注册研究、7,272 个审计回合）。
-- **[Passing the Test You Trained On](https://github.com/lzwhehe/benign-instruction-bench)**（论文草稿）：15 个提示词注入检测器的排名在基准之间几乎不迁移（Kendall τ 0.01–0.31），跑分主要反映基准与训练数据有多接近。
+- **[Passing the Test You Trained On](https://github.com/lzwhehe/benign-instruction-bench)**（独立作者，arXiv:2610.03448）：重放 AgentDojo / τ-bench 的真实工具输出，重评 15 个提示词注入检测器与 2 个 LLM 裁判；BIPIA 榜首在 1% 误报率下只检出约 2% 的 AgentDojo 注入，并审计出其训练集含 1,116 条 BIPIA 输入。
 - **[库淑兰彩贴剪纸生成](https://github.com/lzwhehe/kushulan-papercut-blora)**（共同一作，npj Heritage Science 审稿中）：从作品自动恢复纸色谱与剪切线，微调 Qwen-Image-Edit，线条召回 0.97。
 
 </details>
