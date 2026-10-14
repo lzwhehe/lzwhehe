@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="HESP">
+<style>
+  .k{font:600 15px 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,Menlo,monospace;letter-spacing:1.5px}
+  .st{font:600 13px 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,Menlo,monospace;letter-spacing:1px}
+  .t{font:700 30px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC',Helvetica,Arial,sans-serif;fill:#e6edf3}
+  .s{font:400 19px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC',Helvetica,Arial,sans-serif;fill:#8b98a9}
+  .li{font:400 19px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC',Helvetica,Arial,sans-serif;fill:#c3cdd9}
+  .big{font:700 36px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC',Helvetica,Arial,sans-serif}
+  .ml{font:400 17px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC',Helvetica,Arial,sans-serif;fill:#8b98a9}
+  .foot{font:400 15px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC',Helvetica,Arial,sans-serif;fill:#8593a6}
+  .chip{font:500 16px 'Segoe UI','PingFang SC','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC',Helvetica,Arial,sans-serif}
+  .dot{animation:p 1.6s ease-in-out infinite}@keyframes p{50%{opacity:.25}}</style>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".13"/><stop offset=".6" stop-color="#22d3ee" stop-opacity="0"/></linearGradient></defs><rect width="600" height="300" rx="16" fill="#111827"/><rect width="600" height="300" rx="16" fill="url(#g)"/><rect x=".5" y=".5" width="599" height="299" rx="16" fill="none" stroke="#243042"/><rect x="0" y="24" width="5" height="54" rx="2.5" fill="#22d3ee"/><text x="32" y="46" class="k" fill="#22d3ee" data-maxw="457">② 防御 · 第一作者</text><circle cx="570" cy="41" r="5" fill="#22d3ee" class="dot"/><text x="556" y="46" class="st" fill="#22d3ee" text-anchor="end" data-maxw="220">预印本</text><text x="32" y="96" class="t" data-maxw="536">HESP</text><text x="32" y="130" class="s" data-maxw="536">私有化 LLM 研判 Agent：把“查什么”和“何时停”分开</text><text x="32" y="196" class="big" fill="#22d3ee" data-maxw="250">0.125→1.000</text><text x="32" y="222" class="ml" data-maxw="262">Qwen2.5-7B</text><text x="32" y="245" class="ml" data-maxw="262">已验证正确率</text><line x1="298" y1="160" x2="298" y2="250" stroke="#243042"/><text x="316" y="196" class="big" fill="#22d3ee" data-maxw="250">0→0.917</text><text x="316" y="222" class="ml" data-maxw="262">Llama-3.1-8B</text><text x="316" y="245" class="ml" data-maxw="262">已验证正确率</text><line x1="32" y1="262" x2="568" y2="262" stroke="#243042"/><text x="32" y="284" class="foot" data-maxw="536">4 项预注册研究 · 7B–72B 共 5 个模型 · 7,272 回合 · 误判漏报归零 · 成本减半</text>
+</svg>

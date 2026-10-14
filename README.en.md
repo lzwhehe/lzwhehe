@@ -1,55 +1,82 @@
 <div align="center">
 
-<img src="assets/banner.svg?v=2" width="100%" alt="Liu Zhuowen — AI / Agent Security Researcher">
+<img src="assets/banner-en.svg?v=3" width="100%" alt="Liu Zhuowen — AI Security Engineer · LLM &amp; Agent Security">
 
-<a href="https://github.com/lzwhehe"><img src="https://img.shields.io/badge/中文-161b22?style=for-the-badge" alt="中文"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.en.md"><img src="https://img.shields.io/badge/English-22d3ee?style=for-the-badge" alt="English"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.ja.md"><img src="https://img.shields.io/badge/日本語-161b22?style=for-the-badge" alt="日本語"></a>
+<a href="https://github.com/lzwhehe"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-161b22?style=for-the-badge" alt="中文"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.en.md"><img src="https://img.shields.io/badge/English-22d3ee?style=for-the-badge" alt="English"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.ja.md"><img src="https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-161b22?style=for-the-badge" alt="日本語"></a>
 
-<a href="mailto:ryutakubunwork@gmail.com"><img src="https://img.shields.io/badge/Email-ryutakubunwork%40gmail.com-0b0f17?style=for-the-badge&labelColor=161b22&logo=gmail&logoColor=f5b041" alt="Email"></a>
+<a href="mailto:ryutakubunwork@gmail.com"><img src="https://img.shields.io/badge/Email-0b0f17?style=for-the-badge&logo=gmail&logoColor=f5b041&labelColor=161b22" alt="Email"></a> <a href="http://39.105.66.226/"><img src="https://img.shields.io/badge/%E2%96%B6%20All%20live%20demos-22d3ee?style=for-the-badge" alt="▶ All live demos"></a>
 
 </div>
 
-<br>
+<p align="center"><b>Research line · evaluate first, then defend</b>: red-team evaluations measure where prompt-injection detectors and alert-triage agents fail in real agent settings; the findings then become a triage agent whose evidence is verifiable and which runs on private, local LLMs.</p>
 
-Hi, I'm Liu Zhuowen, a second-year M.S. student in the **Cybersecurity Lab, Graduate School of Advanced Science and Technology, JAIST**.
+<img src="assets/highlights-en.svg?v=3" width="100%" alt="Highlights">
 
-My research focuses on **agent security in security operations (SOC)**, with the goal of putting LLM agents to work in real-world security operations safely and reliably. Alongside this, I work on **safeguarding China’s intangible cultural heritage**, using today’s most capable AI to help traditional culture be preserved and passed on digitally.
+## 🛠️ Engineering · open source, runnable demos
 
+<a href="https://github.com/lzwhehe/probewise"><img src="assets/probewise-en.svg?v=3" width="100%" alt="Probewise"></a>
 
-## 🔬 Research
+<p align="center"><a href="http://39.105.66.226/probewise/"><img src="https://img.shields.io/badge/%E2%96%B6%20Live%20demo-22d3ee?style=for-the-badge" alt="▶ Live demo"></a> <a href="https://github.com/lzwhehe/probewise"><img src="https://img.shields.io/badge/Source-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="Source"></a></p>
 
-<img src="assets/card-now.svg" width="100%" alt="Forged logs vs. LLM triage agents">
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/lunxun-xiaomi"><img src="assets/proj-lunxun-en.svg?v=3" width="100%" alt="lunxun-xiaomi"></a>
+<p align="center"><a href="http://39.105.66.226/lunxun/"><img src="https://img.shields.io/badge/%E2%96%B6%20Live%20demo-a78bfa?style=for-the-badge" alt="▶ Live demo"></a> <a href="https://github.com/lzwhehe/lunxun-xiaomi"><img src="https://img.shields.io/badge/Source-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="Source"></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/repo-vuln-scanner"><img src="assets/proj-scanner-en.svg?v=3" width="100%" alt="repo-vuln-scanner"></a>
+<p align="center"><a href="http://39.105.66.226/scanner/"><img src="https://img.shields.io/badge/%E2%96%B6%20Live%20demo-f87171?style=for-the-badge" alt="▶ Live demo"></a> <a href="https://github.com/lzwhehe/repo-vuln-scanner"><img src="https://img.shields.io/badge/Source-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="Source"></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/security-radar"><img src="assets/proj-radar-en.svg?v=3" width="100%" alt="security-radar"></a>
+<p align="center"><a href="http://39.105.66.226/radar"><img src="https://img.shields.io/badge/%E2%96%B6%20Live%20demo-f5b041?style=for-the-badge" alt="▶ Live demo"></a> <a href="https://github.com/lzwhehe/security-radar"><img src="https://img.shields.io/badge/Source-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="Source"></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/LeakLens"><img src="assets/proj-leaklens-en.svg?v=3" width="100%" alt="LeakLens"></a>
+<p align="center"><a href="http://39.105.66.226/leaklens/"><img src="https://img.shields.io/badge/%E2%96%B6%20Live%20demo-34d399?style=for-the-badge" alt="▶ Live demo"></a> <a href="https://github.com/lzwhehe/LeakLens"><img src="https://img.shields.io/badge/Source-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="Source"></a></p>
+</td>
+</tr>
+</table>
 
-<a href="https://github.com/lzwhehe/HESP"><img src="assets/card-hesp.svg?v=2" width="100%" alt="HESP"></a>
+<sub>Demos are hosted in mainland China. The Lunxun Xiaomi and LeakLens demos use synthetic data; scanners are for authorized security testing only.</sub>
 
-<a href="https://github.com/lzwhehe/benign-instruction-bench"><img src="assets/card-bench.svg" width="100%" alt="Passing the Test You Trained On"></a>
+## 🔬 Research · evaluate first, then defend
 
-<a href="https://github.com/lzwhehe/kushulan-papercut-blora"><img src="assets/card-kushulan.svg" width="100%" alt="Safeguarding Intangible Heritage"></a>
-
-<details>
-<summary><b>One line per project</b></summary>
-
-- **Preprint · Can training teach small LLM triage agents to distrust forged logs?** (first author, DOI 10.5281/zenodo.23311714): an 11k-episode forged-log red-team evaluation over 22 model configurations (0.5B–72B). Every concluding model from 4B to 72B passes 30–36 of 36 attacks, usually after it has already seen the contradicting genuine records. Alignment fine-tuning with LoRA SFT + GRPO cuts held-out misses from 58/144 to 7/144; follow-up experiments in progress.
-- **[HESP](https://github.com/lzwhehe/HESP)** (first author, arXiv:2609.33446): a controller owns what to probe and when to stop while the model only proposes; counted likelihood tables lift Qwen2.5-7B from 0.125 to 1.000 verified completion, and a controller-side stop lifts Llama-3.1-8B from 0 to 0.917 (4 pre-registered studies, 7,272 audited episodes).
-- **[Passing the Test You Trained On](https://github.com/lzwhehe/benign-instruction-bench)** (sole author, arXiv:2610.03448): replaying real AgentDojo / τ-bench tool outputs to re-evaluate 15 prompt-injection detectors and 2 LLM judges. BIPIA's top detector catches only ~2% of AgentDojo injections at 1% FPR, and its training set turns out to contain 1,116 BIPIA inputs.
-- **[Ku Shulan paste-up papercut generation](https://github.com/lzwhehe/kushulan-papercut-blora)** (co-first author, under review at *npj Heritage Science*): recover the paper palette and cut lines from her works, then fine-tune Qwen-Image-Edit; line recall 0.97.
-
-</details>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/benign-instruction-bench"><img src="assets/paper-bench-en.svg?v=3" width="100%" alt="bench"></a>
+<p align="center"><a href="https://doi.org/10.5281/zenodo.23313112"><img src="https://img.shields.io/badge/Preprint-161b22?style=for-the-badge&logo=zenodo&logoColor=22d3ee" alt="Preprint"></a> <a href="https://arxiv.org/abs/2610.03448"><img src="https://img.shields.io/badge/arXiv-161b22?style=for-the-badge&logo=arxiv&logoColor=f87171" alt="arXiv"></a> <a href="https://github.com/lzwhehe/benign-instruction-bench"><img src="https://img.shields.io/badge/Code-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="Code"></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/HESP"><img src="assets/paper-hesp-en.svg?v=3" width="100%" alt="hesp"></a>
+<p align="center"><a href="https://doi.org/10.5281/zenodo.23133690"><img src="https://img.shields.io/badge/Preprint-161b22?style=for-the-badge&logo=zenodo&logoColor=22d3ee" alt="Preprint"></a> <a href="https://arxiv.org/abs/2609.33446"><img src="https://img.shields.io/badge/arXiv-161b22?style=for-the-badge&logo=arxiv&logoColor=f87171" alt="arXiv"></a> <a href="https://github.com/lzwhehe/HESP"><img src="https://img.shields.io/badge/Code-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="Code"></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://doi.org/10.5281/zenodo.23311714"><img src="assets/paper-forged-en.svg?v=3" width="100%" alt="forged"></a>
+<p align="center"><a href="https://doi.org/10.5281/zenodo.23311714"><img src="https://img.shields.io/badge/Preprint-161b22?style=for-the-badge&logo=zenodo&logoColor=22d3ee" alt="Preprint"></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/kushulan-papercut-blora"><img src="assets/paper-kushulan-en.svg?v=3" width="100%" alt="kushulan"></a>
+<p align="center"><a href="https://github.com/lzwhehe/kushulan-papercut-blora"><img src="https://img.shields.io/badge/Code-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="Code"></a></p>
+</td>
+</tr>
+</table>
 
 ## 🧰 Skills
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Web_Security-f87171?style=for-the-badge" alt="Web Security">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Burp_Suite-161b22?style=for-the-badge&logo=burpsuite&logoColor=FF6633" alt="Burp Suite"> <img src="https://img.shields.io/badge/SQLMap-161b22?style=for-the-badge" alt="SQLMap"> <img src="https://img.shields.io/badge/Nmap-161b22?style=for-the-badge" alt="Nmap"> <img src="https://img.shields.io/badge/Xray-161b22?style=for-the-badge" alt="Xray"> <img src="https://img.shields.io/badge/OWASP_Top_10-161b22?style=for-the-badge&logo=owasp&logoColor=ffffff" alt="OWASP Top 10">
-</p>
+<img src="assets/skills-en.svg?v=3" width="100%" alt="Skills">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Agent_Tools-22d3ee?style=for-the-badge" alt="Agent Tools">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Claude_Code-161b22?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude Code"> <img src="https://img.shields.io/badge/Codex-161b22?style=for-the-badge" alt="Codex"> <img src="https://img.shields.io/badge/OpenCode-161b22?style=for-the-badge&logo=opencode&logoColor=ffffff" alt="OpenCode"> <img src="https://img.shields.io/badge/WorkBuddy-161b22?style=for-the-badge" alt="WorkBuddy"> <img src="https://img.shields.io/badge/Kimi_Code-161b22?style=for-the-badge&logo=kimi&logoColor=ffffff" alt="Kimi Code">
-</p>
+## 🎓 Education & Awards
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Development-a78bfa?style=for-the-badge" alt="Development">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Vue-161b22?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue"> <img src="https://img.shields.io/badge/Node.js-161b22?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"> <img src="https://img.shields.io/badge/vLLM-161b22?style=for-the-badge" alt="vLLM"> <img src="https://img.shields.io/badge/Ollama-161b22?style=for-the-badge&logo=ollama&logoColor=ffffff" alt="Ollama"> <img src="https://img.shields.io/badge/LoRA-161b22?style=for-the-badge" alt="LoRA"> <img src="https://img.shields.io/badge/Hyperledger_Fabric-161b22?style=for-the-badge" alt="Hyperledger Fabric">
-</p>
+- **JAIST** (Japan Advanced Institute of Science and Technology) · M.S. Computer Science · Cybersecurity Research Lab (supervisor: Razvan Beuran) · graduating March 2027 · top 10%
+- **Hubei Minzu University** · B.Eng. Information Security · ranked 1st in major · founded and captained the university CTF team
+- **Awards**: National Cybersecurity Leading Talent Attack-Defense Competition, 3rd prize (national) · Enshi Prefecture CTF, 1st prize · China Collegiate Computing Contest – Network Technology Challenge, Central China 3rd prize
+- **Languages**: Chinese (native) · Japanese JLPT N2 · English TOEIC 745
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Languages-f5b041?style=for-the-badge" alt="Languages">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"> <img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"> <img src="https://img.shields.io/badge/TypeScript-161b22?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript"> <img src="https://img.shields.io/badge/C-161b22?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C">
-</p>
-
+<p align="center"><sub>📮 Contact: ryutakubunwork@gmail.com</sub></p>

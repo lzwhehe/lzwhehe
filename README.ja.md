@@ -1,55 +1,82 @@
 <div align="center">
 
-<img src="assets/banner.svg?v=2" width="100%" alt="Liu Zhuowen — AI / Agent Security Researcher">
+<img src="assets/banner-ja.svg?v=3" width="100%" alt="Liu Zhuowen — AI Security Engineer · LLM &amp; Agent Security">
 
-<a href="https://github.com/lzwhehe"><img src="https://img.shields.io/badge/中文-161b22?style=for-the-badge" alt="中文"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.en.md"><img src="https://img.shields.io/badge/English-161b22?style=for-the-badge" alt="English"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.ja.md"><img src="https://img.shields.io/badge/日本語-22d3ee?style=for-the-badge" alt="日本語"></a>
+<a href="https://github.com/lzwhehe"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-161b22?style=for-the-badge" alt="中文"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.en.md"><img src="https://img.shields.io/badge/English-161b22?style=for-the-badge" alt="English"></a> <a href="https://github.com/lzwhehe/lzwhehe/blob/main/README.ja.md"><img src="https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-22d3ee?style=for-the-badge" alt="日本語"></a>
 
-<a href="mailto:ryutakubunwork@gmail.com"><img src="https://img.shields.io/badge/Email-ryutakubunwork%40gmail.com-0b0f17?style=for-the-badge&labelColor=161b22&logo=gmail&logoColor=f5b041" alt="Email"></a>
+<a href="mailto:ryutakubunwork@gmail.com"><img src="https://img.shields.io/badge/Email-0b0f17?style=for-the-badge&logo=gmail&logoColor=f5b041&labelColor=161b22" alt="Email"></a> <a href="http://39.105.66.226/"><img src="https://img.shields.io/badge/%E2%96%B6%20%E3%83%87%E3%83%A2%E4%B8%80%E8%A6%A7-22d3ee?style=for-the-badge" alt="▶ デモ一覧"></a>
 
 </div>
 
-<br>
+<p align="center"><b>研究の流れ · まず評価し、次に防御する</b>：レッドチーム評価で、プロンプトインジェクション検知器とアラート分析エージェントが実際のエージェント環境でどこで失敗するかを測定し、その知見を、証拠を検証でき、ローカル LLM で運用できる分析エージェントにしています。</p>
 
-こんにちは、劉卓文です。**北陸先端科学技術大学院大学（JAIST）先端科学技術専攻・サイバーセキュリティ研究室**の修士 2 年に在籍しています。
+<img src="assets/highlights-ja.svg?v=3" width="100%" alt="Highlights">
 
-研究テーマは **SOC（セキュリティ運用）におけるエージェントのセキュリティ**で、LLM エージェントを実際のセキュリティ運用の現場に安全かつ確実に導入できるようにすることを目指しています。また、**中国の無形文化遺産の保護**にも取り組んでおり、最先端の AI 技術を活かして、伝統文化のデジタルな保存と継承を支えることに力を入れています。
+## 🛠️ 開発プロジェクト · すべて OSS・ライブデモあり
 
+<a href="https://github.com/lzwhehe/probewise"><img src="assets/probewise-ja.svg?v=3" width="100%" alt="Probewise"></a>
 
-## 🔬 Research
+<p align="center"><a href="http://39.105.66.226/probewise/"><img src="https://img.shields.io/badge/%E2%96%B6%20%E3%83%A9%E3%82%A4%E3%83%96%E3%83%87%E3%83%A2-22d3ee?style=for-the-badge" alt="▶ ライブデモ"></a> <a href="https://github.com/lzwhehe/probewise"><img src="https://img.shields.io/badge/%E3%82%BD%E3%83%BC%E3%82%B9-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="ソース"></a></p>
 
-<img src="assets/card-now.svg" width="100%" alt="Forged logs vs. LLM triage agents">
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/lunxun-xiaomi"><img src="assets/proj-lunxun-ja.svg?v=3" width="100%" alt="lunxun-xiaomi"></a>
+<p align="center"><a href="http://39.105.66.226/lunxun/"><img src="https://img.shields.io/badge/%E2%96%B6%20%E3%83%A9%E3%82%A4%E3%83%96%E3%83%87%E3%83%A2-a78bfa?style=for-the-badge" alt="▶ ライブデモ"></a> <a href="https://github.com/lzwhehe/lunxun-xiaomi"><img src="https://img.shields.io/badge/%E3%82%BD%E3%83%BC%E3%82%B9-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="ソース"></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/repo-vuln-scanner"><img src="assets/proj-scanner-ja.svg?v=3" width="100%" alt="repo-vuln-scanner"></a>
+<p align="center"><a href="http://39.105.66.226/scanner/"><img src="https://img.shields.io/badge/%E2%96%B6%20%E3%83%A9%E3%82%A4%E3%83%96%E3%83%87%E3%83%A2-f87171?style=for-the-badge" alt="▶ ライブデモ"></a> <a href="https://github.com/lzwhehe/repo-vuln-scanner"><img src="https://img.shields.io/badge/%E3%82%BD%E3%83%BC%E3%82%B9-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="ソース"></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/security-radar"><img src="assets/proj-radar-ja.svg?v=3" width="100%" alt="security-radar"></a>
+<p align="center"><a href="http://39.105.66.226/radar"><img src="https://img.shields.io/badge/%E2%96%B6%20%E3%83%A9%E3%82%A4%E3%83%96%E3%83%87%E3%83%A2-f5b041?style=for-the-badge" alt="▶ ライブデモ"></a> <a href="https://github.com/lzwhehe/security-radar"><img src="https://img.shields.io/badge/%E3%82%BD%E3%83%BC%E3%82%B9-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="ソース"></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/LeakLens"><img src="assets/proj-leaklens-ja.svg?v=3" width="100%" alt="LeakLens"></a>
+<p align="center"><a href="http://39.105.66.226/leaklens/"><img src="https://img.shields.io/badge/%E2%96%B6%20%E3%83%A9%E3%82%A4%E3%83%96%E3%83%87%E3%83%A2-34d399?style=for-the-badge" alt="▶ ライブデモ"></a> <a href="https://github.com/lzwhehe/LeakLens"><img src="https://img.shields.io/badge/%E3%82%BD%E3%83%BC%E3%82%B9-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="ソース"></a></p>
+</td>
+</tr>
+</table>
 
-<a href="https://github.com/lzwhehe/HESP"><img src="assets/card-hesp.svg?v=2" width="100%" alt="HESP"></a>
+<sub>デモは中国国内のサーバーで公開しています。輪詢小秘と LeakLens のデモは合成データを使用し、スキャナは許可されたセキュリティ検査専用です。</sub>
 
-<a href="https://github.com/lzwhehe/benign-instruction-bench"><img src="assets/card-bench.svg" width="100%" alt="Passing the Test You Trained On"></a>
+## 🔬 研究 · まず評価、次に防御
 
-<a href="https://github.com/lzwhehe/kushulan-papercut-blora"><img src="assets/card-kushulan.svg" width="100%" alt="Safeguarding Intangible Heritage"></a>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/benign-instruction-bench"><img src="assets/paper-bench-ja.svg?v=3" width="100%" alt="bench"></a>
+<p align="center"><a href="https://doi.org/10.5281/zenodo.23313112"><img src="https://img.shields.io/badge/%E3%83%97%E3%83%AC%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88-161b22?style=for-the-badge&logo=zenodo&logoColor=22d3ee" alt="プレプリント"></a> <a href="https://arxiv.org/abs/2610.03448"><img src="https://img.shields.io/badge/arXiv-161b22?style=for-the-badge&logo=arxiv&logoColor=f87171" alt="arXiv"></a> <a href="https://github.com/lzwhehe/benign-instruction-bench"><img src="https://img.shields.io/badge/%E3%82%B3%E3%83%BC%E3%83%89-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="コード"></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/HESP"><img src="assets/paper-hesp-ja.svg?v=3" width="100%" alt="hesp"></a>
+<p align="center"><a href="https://doi.org/10.5281/zenodo.23133690"><img src="https://img.shields.io/badge/%E3%83%97%E3%83%AC%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88-161b22?style=for-the-badge&logo=zenodo&logoColor=22d3ee" alt="プレプリント"></a> <a href="https://arxiv.org/abs/2609.33446"><img src="https://img.shields.io/badge/arXiv-161b22?style=for-the-badge&logo=arxiv&logoColor=f87171" alt="arXiv"></a> <a href="https://github.com/lzwhehe/HESP"><img src="https://img.shields.io/badge/%E3%82%B3%E3%83%BC%E3%83%89-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="コード"></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://doi.org/10.5281/zenodo.23311714"><img src="assets/paper-forged-ja.svg?v=3" width="100%" alt="forged"></a>
+<p align="center"><a href="https://doi.org/10.5281/zenodo.23311714"><img src="https://img.shields.io/badge/%E3%83%97%E3%83%AC%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88-161b22?style=for-the-badge&logo=zenodo&logoColor=22d3ee" alt="プレプリント"></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/lzwhehe/kushulan-papercut-blora"><img src="assets/paper-kushulan-ja.svg?v=3" width="100%" alt="kushulan"></a>
+<p align="center"><a href="https://github.com/lzwhehe/kushulan-papercut-blora"><img src="https://img.shields.io/badge/%E3%82%B3%E3%83%BC%E3%83%89-161b22?style=for-the-badge&logo=github&logoColor=ffffff" alt="コード"></a></p>
+</td>
+</tr>
+</table>
 
-<details>
-<summary><b>各プロジェクトの概要</b></summary>
+## 🧰 スキル
 
-- **プレプリント・小型 LLM 分析エージェントに偽造ログを疑わせる学習は可能か**（筆頭著者、DOI 10.5281/zenodo.23311714）：22 のモデル構成（0.5B〜72B）で 1.1 万エピソードの偽造ログ・レッドチーム評価を実施。結論を出せる 4B〜72B のモデルはいずれも 36 件中 30〜36 件の攻撃を見逃し、その多くは矛盾する本物の記録をすでに確認していました。LoRA SFT + GRPO による微調整で、ホールドアウトの見逃しを 58/144 から 7/144 に削減。追加実験中です。
-- **[HESP](https://github.com/lzwhehe/HESP)**（筆頭著者、arXiv:2609.33446）：「何を調べるか」と「いつ止めるか」をコントローラが担い、モデルは提案のみを行います。カウントした尤度表で Qwen2.5-7B の検証済み完了率を 0.125 から 1.000 に、コントローラ側の停止で Llama-3.1-8B を 0 から 0.917 に改善しました（事前登録研究 4 件、監査済み 7,272 エピソード）。
-- **[Passing the Test You Trained On](https://github.com/lzwhehe/benign-instruction-bench)**（単著、arXiv:2610.03448）：AgentDojo / τ-bench の実際のツール出力を再生し、15 種のプロンプトインジェクション検知器と 2 種の LLM 判定器を再評価。BIPIA 首位の検知器は誤検知率 1% で AgentDojo の注入を約 2% しか検出できず、その学習データに BIPIA の入力 1,116 件が含まれていることも判明しました。
-- **[庫淑蘭の彩貼り切り紙の生成](https://github.com/lzwhehe/kushulan-papercut-blora)**（共同筆頭著者、*npj Heritage Science* 査読中）：作品から色紙パレットと切り線を自動復元し、Qwen-Image-Edit をファインチューニング。線再現率 0.97。
+<img src="assets/skills-ja.svg?v=3" width="100%" alt="Skills">
 
-</details>
+## 🎓 学歴・受賞
 
-## 🧰 Skills
+- **北陸先端科学技術大学院大学（JAIST）** · 修士（情報科学）· サイバーセキュリティ研究室（指導教員 Razvan Beuran）· 2027 年 3 月修了予定 · 上位 10%
+- **湖北民族大学** · 情報セキュリティ学士 · 学科首席 · 学内 CTF チームを創設し主将を務める
+- **受賞**：網絡安全領軍人材攻防大会 三等賞（国家級）· 恩施州 CTF 一等賞 · 中国高校計算機大会・ネットワーク技術チャレンジ 華中地区三等賞
+- **語学**：中国語（母語）· 日本語 JLPT N2 · 英語 TOEIC 745
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Web_セキュリティ-f87171?style=for-the-badge" alt="Web セキュリティ">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Burp_Suite-161b22?style=for-the-badge&logo=burpsuite&logoColor=FF6633" alt="Burp Suite"> <img src="https://img.shields.io/badge/SQLMap-161b22?style=for-the-badge" alt="SQLMap"> <img src="https://img.shields.io/badge/Nmap-161b22?style=for-the-badge" alt="Nmap"> <img src="https://img.shields.io/badge/Xray-161b22?style=for-the-badge" alt="Xray"> <img src="https://img.shields.io/badge/OWASP_Top_10-161b22?style=for-the-badge&logo=owasp&logoColor=ffffff" alt="OWASP Top 10">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/エージェントツール-22d3ee?style=for-the-badge" alt="エージェントツール">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Claude_Code-161b22?style=for-the-badge&logo=claude&logoColor=D97757" alt="Claude Code"> <img src="https://img.shields.io/badge/Codex-161b22?style=for-the-badge" alt="Codex"> <img src="https://img.shields.io/badge/OpenCode-161b22?style=for-the-badge&logo=opencode&logoColor=ffffff" alt="OpenCode"> <img src="https://img.shields.io/badge/WorkBuddy-161b22?style=for-the-badge" alt="WorkBuddy"> <img src="https://img.shields.io/badge/Kimi_Code-161b22?style=for-the-badge&logo=kimi&logoColor=ffffff" alt="Kimi Code">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/開発-a78bfa?style=for-the-badge" alt="開発">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Vue-161b22?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue"> <img src="https://img.shields.io/badge/Node.js-161b22?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"> <img src="https://img.shields.io/badge/vLLM-161b22?style=for-the-badge" alt="vLLM"> <img src="https://img.shields.io/badge/Ollama-161b22?style=for-the-badge&logo=ollama&logoColor=ffffff" alt="Ollama"> <img src="https://img.shields.io/badge/LoRA-161b22?style=for-the-badge" alt="LoRA"> <img src="https://img.shields.io/badge/Hyperledger_Fabric-161b22?style=for-the-badge" alt="Hyperledger Fabric">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/言語-f5b041?style=for-the-badge" alt="言語">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"> <img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"> <img src="https://img.shields.io/badge/TypeScript-161b22?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript"> <img src="https://img.shields.io/badge/C-161b22?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C">
-</p>
-
+<p align="center"><sub>📮 連絡先：ryutakubunwork@gmail.com</sub></p>
