@@ -72,11 +72,4 @@
 
 <img src="assets/skills-en.svg?v=3" width="100%" alt="Skills">
 
-## 🎓 Education & Awards
-
-- **JAIST** (Japan Advanced Institute of Science and Technology) · M.S. Computer Science · Cybersecurity Research Lab (supervisor: Razvan Beuran) · graduating March 2027 · top 10%
-- **Hubei Minzu University** · B.Eng. Information Security · ranked 1st in major · founded and captained the university CTF team
-- **Awards**: National Cybersecurity Leading Talent Attack-Defense Competition, 3rd prize (national) · Enshi Prefecture CTF, 1st prize · China Collegiate Computing Contest – Network Technology Challenge, Central China 3rd prize
-- **Languages**: Chinese (native) · Japanese JLPT N2 · English TOEIC 745
-
 <p align="center"><sub>📮 Contact: ryutakubunwork@gmail.com</sub></p>
