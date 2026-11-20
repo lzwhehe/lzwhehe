@@ -72,11 +72,4 @@
 
 <img src="assets/skills-zh.svg?v=3" width="100%" alt="Skills">
 
-## 🎓 教育与荣誉
-
-- **北陆先端科学技术大学院大学（JAIST）** · 计算机硕士 · Cybersecurity Research Lab（导师 Razvan Beuran）· 2027.03 毕业 · 专业前 10%
-- **湖北民族大学** · 信息安全本科 · 专业第一 · 创立校 CTF 战队并任队长
-- **竞赛**：网络安全领军人才攻防大赛 三等奖（国家级）· 恩施州 CTF 一等奖 · 中国高校计算机大赛·网络技术挑战赛 华中赛区三等奖
-- **语言**：日语 JLPT N2 · 英语 TOEIC 745
-
 <p align="center"><sub>📮 联系：ryutakubunwork@gmail.com</sub></p>
